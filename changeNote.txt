@@ -1,0 +1,2 @@
+20200420
+    BLE module enable  delay 2 seconds

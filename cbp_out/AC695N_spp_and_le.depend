@@ -1,0 +1,5851 @@
+# depslib dependency file v1.0
+1593491008 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\le_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"le_at_com.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"system/audio_enc_api.h"
+	"Resample_api.h"
+	"ble_data_types.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\cpu.h
+	"br23.h"
+	"csfr.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\br23.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\csfr.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\irq.h
+	"asm/hwi.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\hwi.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\errno-base.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\malloc.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\list.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+	"crypto_toolbox/crypto.h"
+	"crypto_toolbox/Crypto_hash.h"
+	"crypto_toolbox/hmac.h"
+	"crypto_toolbox/sha256.h"
+	"crypto_toolbox/bigint.h"
+	"crypto_toolbox/bigint_impl.h"
+	"crypto_toolbox/ecdh.h"
+	"crypto_toolbox/micro-ecc/uECC_new.h"
+	"crypto_toolbox/micro-ecc/uECC.h"
+	"crypto_toolbox/aes_cmac.h"
+	"crypto_toolbox/rijndael.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\init.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\task.h
+	"os/os_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\jiffies.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_error.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_type.h
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"printf.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\projdefs.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\mpu_wrappers.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\queue.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\wait.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\database.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ioctl.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\sys_time.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\bank_switch.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\gpio.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\version.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\index.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\debug_lite.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\ioctl_cmds.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\adc_api.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\plcnt.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\rdec.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\crc16.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock_hw.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power_interface.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\efuse.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\wdt.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\device\sdio_host_init.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto.h
+	"endian.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto_hash.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\hmac.h
+	"crypto.h"
+	"sha256.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\sha256.h
+	"crypto.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint.h
+	"bigint_impl.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint_impl.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\ecdh.h
+	"bigint_impl.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc_new.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc.h
+	<stdint.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\aes_cmac.h
+	<stdint.h>
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\rijndael.h
+	<stdint.h>
+
+1592298877 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"btcontroller_mode.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_config.h
+	"board_ac695x_demo_cfg.h"
+
+1592381221 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo_cfg.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_mode.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_action.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\btstack_task.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_api.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\bluetooth.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\le_user.h
+	"btstack/ble_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1592308842 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/le_user.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1593426240 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_user.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_msg.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_data_types.h
+
+1592309773 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_client_demo.h
+	<stdint.h>
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"ble_data_types.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_config.c
+	"app_config.h"
+	"bt_common.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\app_mesh.h
+	"mesh/mesh_config.h"
+	"mesh/main.h"
+	"mesh/cfg_srv.h"
+	"mesh/cfg_cli.h"
+	"device/vm.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\mesh_config.h
+	"adapter/include/common/sys_timer.h"
+	"gpio.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\adapter\include\common\sys_timer.h
+	"generic/sys_time.h"
+	"generic/typedef.h"
+	"generic/list.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\main.h
+	"mesh/access.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\access.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_srv.h
+	"mesh/access.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_cli.h
+	"mesh/access.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_onoff_app.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"btstack/btstack_task.h"
+	"btstack/bt_profile_config.h"
+	"btstack/avctp_user.h"
+	"btstack/le_user.h"
+	"system/event.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+	"bt_common.h"
+	"debug.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\port\br23\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\ble\ll_config.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\lmp_config.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\bt_profile_config.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\avctp_user.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_at_com.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_com.h"
+	"at.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_at_com.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"spp_trans_data.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_user.c
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"btstack/avctp_user.h"
+	"app_config.h"
+	"classic/tws_api.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_event.h
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\ctmu.h
+	"typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\common\custom_cfg.c
+	"board_config.h"
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_user_update.h
+	"typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"spp_user.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"file_operate/file_operate.h"
+	"rcsp_bs_api.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\file_operate\file_operate.h
+	"system/fs/fs.h"
+	"storage_dev/storage_dev.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\storage_dev\storage_dev.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bs_api.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"event.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\update\update.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\update\update_loader_download.h
+	"typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"custom_cfg.h"
+	"system/debug.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\pwm_led.h
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\update\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"le_rcsp_adv_module.h"
+	<string.h>
+	"rcsp_adv_tws_ota.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_rcsp_adv_module.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1592311070 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"debug.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"debug.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_main.h
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"debug.h"
+
+1592307041 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_com.h"
+	"le_at_com.h"
+	"debug.h"
+
+1592307585 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"debug.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\charge.h
+	"typedef.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power\p33.h
+	"typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\log_config.c
+	"system/includes.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"debug.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/chargestore.h"
+	"update.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\chargestore.h
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\ctmu.c
+	"app_config.h"
+	"asm/ctmu.h"
+	"asm/gpio.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_soft.h
+	"generic/typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\mcpwm.c
+	"asm/mcpwm.h"
+	"asm/clock.h"
+	"asm/gpio.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\mcpwm.h
+	"typedef.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\port_wkup.c
+	"typedef.h"
+	"irq.h"
+	"asm/gpio.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"system/timer.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\setup.c
+	"asm/includes.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/efuse.h"
+	"asm/power/p33.h"
+	"system/task.h"
+	"timer.h"
+	"system/init.h"
+	"system/includes.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\debug.h
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1591077066 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1591077066 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\cpu\br23\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
+1593421923 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1592310567 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\resample_8.h
+
+1592310567 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_8.h
+
+1592385427 source:e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\resample_8.c
+	<string.h>
+	"resample_8.h"
+
+1565232494 e:\code\git-repo\jl-695n-data-transfer\cbp_out\include_lib\system\audio_enc_api.h
+
+1592309773 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\cpu.h
+	"br23.h"
+	"csfr.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\br23.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\csfr.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\irq.h
+	"asm/hwi.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\hwi.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\errno-base.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\malloc.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\list.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+	"crypto_toolbox/crypto.h"
+	"crypto_toolbox/Crypto_hash.h"
+	"crypto_toolbox/hmac.h"
+	"crypto_toolbox/sha256.h"
+	"crypto_toolbox/bigint.h"
+	"crypto_toolbox/bigint_impl.h"
+	"crypto_toolbox/ecdh.h"
+	"crypto_toolbox/micro-ecc/uECC_new.h"
+	"crypto_toolbox/micro-ecc/uECC.h"
+	"crypto_toolbox/aes_cmac.h"
+	"crypto_toolbox/rijndael.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\init.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\task.h
+	"os/os_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\jiffies.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\os_error.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\os_type.h
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"printf.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\projdefs.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\mpu_wrappers.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\os\freertos\queue.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\wait.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\database.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\ioctl.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\sys_time.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\bank_switch.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\gpio.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\version.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\index.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\generic\debug_lite.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\ioctl_cmds.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\adc_api.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\plcnt.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\rdec.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\crc16.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\clock_hw.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\power_interface.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\efuse.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\wdt.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\device\sdio_host_init.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\crypto.h
+	"endian.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\crypto_hash.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\hmac.h
+	"crypto.h"
+	"sha256.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\sha256.h
+	"crypto.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\bigint.h
+	"bigint_impl.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\bigint_impl.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\ecdh.h
+	"bigint_impl.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc_new.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc.h
+	<stdint.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\aes_cmac.h
+	<stdint.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\crypto_toolbox\rijndael.h
+	<stdint.h>
+
+1592298877 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"btcontroller_mode.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\board\br23\board_config.h
+	"board_ac695x_demo_cfg.h"
+
+1592381221 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo_cfg.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\btcontroller_mode.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\include\app_action.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\btstack_task.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\ble_api.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\bluetooth.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\le_user.h
+	"btstack/ble_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1592308842 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\le_client_demo.h
+	<stdint.h>
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/le_user.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"ble_data_types.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\include\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\edr\include\spp_user.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_msg.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\ble_data_types.h
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\mesh_config.c
+	"app_config.h"
+	"bt_common.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\app_mesh.h
+	"mesh/mesh_config.h"
+	"mesh/main.h"
+	"mesh/cfg_srv.h"
+	"mesh/cfg_cli.h"
+	"device/vm.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\mesh\mesh_config.h
+	"adapter/include/common/sys_timer.h"
+	"gpio.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\adapter\include\common\sys_timer.h
+	"generic/sys_time.h"
+	"generic/typedef.h"
+	"generic/list.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\mesh\main.h
+	"mesh/access.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\mesh\access.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\mesh\cfg_srv.h
+	"mesh/access.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\mesh\cfg_cli.h
+	"mesh/access.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\mesh_onoff_app.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"btstack/btstack_task.h"
+	"btstack/bt_profile_config.h"
+	"btstack/avctp_user.h"
+	"btstack/le_user.h"
+	"system/event.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+	"bt_common.h"
+	"debug.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\port\br23\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\ble\ll_config.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\classic\lmp_config.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\bt_profile_config.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btstack\avctp_user.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1592385427 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\resample_8.c
+	<string.h>
+	"resample_8.h"
+
+1592310567 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\resample_8.h
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\edr\spp_at_com.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_com.h"
+	"at.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\edr\include\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\edr\include\spp_at_com.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\edr\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"spp_trans_data.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\edr\spp_user.c
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"btstack/avctp_user.h"
+	"app_config.h"
+	"classic/tws_api.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\classic\tws_event.h
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\ctmu.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\common\custom_cfg.c
+	"board_config.h"
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\include\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_user_update.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"spp_user.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"file_operate/file_operate.h"
+	"rcsp_bs_api.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\file_operate\file_operate.h
+	"system/fs/fs.h"
+	"storage_dev/storage_dev.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\storage_dev\storage_dev.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bs_api.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"event.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\update\update.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\update\update_loader_download.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"custom_cfg.h"
+	"system/debug.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\pwm_led.h
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\update\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"le_rcsp_adv_module.h"
+	<string.h>
+	"rcsp_adv_tws_ota.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\le_rcsp_adv_module.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1592311070 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"debug.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"debug.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\include\app_main.h
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"debug.h"
+
+1592307041 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_com.h"
+	"le_at_com.h"
+	"debug.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\common\ble\include\le_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1592388656 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1592307585 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"debug.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\charge.h
+	"typedef.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\power\p33.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\lib_config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\lib_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\lib_config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\lib_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\lib_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\log_config.c
+	"system/includes.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"debug.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/chargestore.h"
+	"update.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\chargestore.h
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\ctmu.c
+	"app_config.h"
+	"asm/ctmu.h"
+	"asm/gpio.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\iic_soft.h
+	"generic/typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\mcpwm.c
+	"asm/mcpwm.h"
+	"asm/clock.h"
+	"asm/gpio.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\mcpwm.h
+	"typedef.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\port_wkup.c
+	"typedef.h"
+	"irq.h"
+	"asm/gpio.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"system/timer.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\setup.c
+	"asm/includes.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/efuse.h"
+	"asm/power/p33.h"
+	"system/task.h"
+	"timer.h"
+	"system/init.h"
+	"system/includes.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\debug.h
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1591077066 d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\include_lib\driver\cpu\br23\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1591077066 source:d:\客户案例\speaker\胎心仪压缩算法-数值0.2.0\cbp_out\cpu\br23\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
+1592309773 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\cpu.h
+	"br23.h"
+	"csfr.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\br23.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\csfr.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\irq.h
+	"asm/hwi.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\hwi.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\errno-base.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\malloc.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\list.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+	"crypto_toolbox/crypto.h"
+	"crypto_toolbox/Crypto_hash.h"
+	"crypto_toolbox/hmac.h"
+	"crypto_toolbox/sha256.h"
+	"crypto_toolbox/bigint.h"
+	"crypto_toolbox/bigint_impl.h"
+	"crypto_toolbox/ecdh.h"
+	"crypto_toolbox/micro-ecc/uECC_new.h"
+	"crypto_toolbox/micro-ecc/uECC.h"
+	"crypto_toolbox/aes_cmac.h"
+	"crypto_toolbox/rijndael.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\init.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\task.h
+	"os/os_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\jiffies.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_error.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_type.h
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"printf.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\projdefs.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\mpu_wrappers.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\queue.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\wait.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\database.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ioctl.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\sys_time.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\bank_switch.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\gpio.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\version.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\index.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\generic\debug_lite.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\ioctl_cmds.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\adc_api.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\plcnt.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\rdec.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\crc16.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock_hw.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power_interface.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\efuse.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\wdt.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\device\sdio_host_init.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto.h
+	"endian.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto_hash.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\hmac.h
+	"crypto.h"
+	"sha256.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\sha256.h
+	"crypto.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint.h
+	"bigint_impl.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint_impl.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\ecdh.h
+	"bigint_impl.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc_new.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc.h
+	<stdint.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\aes_cmac.h
+	<stdint.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\rijndael.h
+	<stdint.h>
+
+1593684142 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"btcontroller_mode.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_config.h
+	"board_ac695x_demo_cfg.h"
+
+1599573149 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo_cfg.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_mode.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_action.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\btstack_task.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_api.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\bluetooth.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\le_user.h
+	"btstack/ble_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1592308842 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_client_demo.h
+	<stdint.h>
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/le_user.h"
+
+1593576630 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"ble_data_types.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_user.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_msg.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_data_types.h
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_config.c
+	"app_config.h"
+	"bt_common.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\app_mesh.h
+	"mesh/mesh_config.h"
+	"mesh/main.h"
+	"mesh/cfg_srv.h"
+	"mesh/cfg_cli.h"
+	"device/vm.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\mesh_config.h
+	"adapter/include/common/sys_timer.h"
+	"gpio.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\adapter\include\common\sys_timer.h
+	"generic/sys_time.h"
+	"generic/typedef.h"
+	"generic/list.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\main.h
+	"mesh/access.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\access.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_srv.h
+	"mesh/access.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_cli.h
+	"mesh/access.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_onoff_app.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"btstack/btstack_task.h"
+	"btstack/bt_profile_config.h"
+	"btstack/avctp_user.h"
+	"btstack/le_user.h"
+	"system/event.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+	"bt_common.h"
+	"debug.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\port\br23\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\ble\ll_config.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\lmp_config.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\bt_profile_config.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btstack\avctp_user.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1592385427 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\resample_8.c
+	<string.h>
+	"resample_8.h"
+
+1592310567 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_8.h
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_at_com.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_com.h"
+	"at.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_at_com.h
+	"typedef.h"
+	"bt_common.h"
+
+1593681876 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"spp_trans_data.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_user.c
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"btstack/avctp_user.h"
+	"app_config.h"
+	"classic/tws_api.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_event.h
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\ctmu.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\common\custom_cfg.c
+	"board_config.h"
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_user_update.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"spp_user.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"file_operate/file_operate.h"
+	"rcsp_bs_api.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\file_operate\file_operate.h
+	"system/fs/fs.h"
+	"storage_dev/storage_dev.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\storage_dev\storage_dev.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bs_api.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"event.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\update\update.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\update\update_loader_download.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"custom_cfg.h"
+	"system/debug.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\pwm_led.h
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\update\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"le_rcsp_adv_module.h"
+	<string.h>
+	"rcsp_adv_tws_ota.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_rcsp_adv_module.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1592311070 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"debug.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"debug.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_main.h
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"debug.h"
+
+1593683548 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_com.h"
+	"le_at_com.h"
+	"debug.h"
+
+1593525945 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1599577095 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1592307585 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"debug.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\charge.h
+	"typedef.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power\p33.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\log_config.c
+	"system/includes.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"debug.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/chargestore.h"
+	"update.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\chargestore.h
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\ctmu.c
+	"app_config.h"
+	"asm/ctmu.h"
+	"asm/gpio.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_soft.h
+	"generic/typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\mcpwm.c
+	"asm/mcpwm.h"
+	"asm/clock.h"
+	"asm/gpio.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\mcpwm.h
+	"typedef.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\port_wkup.c
+	"typedef.h"
+	"irq.h"
+	"asm/gpio.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"system/timer.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\setup.c
+	"asm/includes.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/efuse.h"
+	"asm/power/p33.h"
+	"system/task.h"
+	"timer.h"
+	"system/init.h"
+	"system/includes.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\debug.h
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1591077066 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1591077066 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\cpu\br23\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
+1593343056 e:\code\git-repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_api.h
+
+1599576673 source:d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\le_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"le_at_com.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"system/audio_enc_api.h"
+	"Resample_api.h"
+	"ble_data_types.h"
+
+1565232494 d:\code\git_repo\jl-695n-data-transfer\cbp_out\include_lib\system\audio_enc_api.h
+
+1593525945 d:\code\git_repo\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_api.h
+
+1626753998 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\le_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"le_at_com.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"system/audio_enc_api.h"
+	"Resample_api.h"
+	"ble_data_types.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\cpu.h
+	"br23.h"
+	"csfr.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\br23.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\csfr.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\irq.h
+	"asm/hwi.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\hwi.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\errno-base.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\malloc.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\list.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+	"crypto_toolbox/crypto.h"
+	"crypto_toolbox/Crypto_hash.h"
+	"crypto_toolbox/hmac.h"
+	"crypto_toolbox/sha256.h"
+	"crypto_toolbox/bigint.h"
+	"crypto_toolbox/bigint_impl.h"
+	"crypto_toolbox/ecdh.h"
+	"crypto_toolbox/micro-ecc/uECC_new.h"
+	"crypto_toolbox/micro-ecc/uECC.h"
+	"crypto_toolbox/aes_cmac.h"
+	"crypto_toolbox/rijndael.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\init.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\task.h
+	"os/os_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\jiffies.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_error.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_type.h
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"printf.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\projdefs.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\mpu_wrappers.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\queue.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\wait.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\database.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ioctl.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\sys_time.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\bank_switch.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\gpio.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\version.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\index.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\generic\debug_lite.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\ioctl_cmds.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\adc_api.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\plcnt.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\rdec.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\crc16.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock_hw.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power_interface.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\efuse.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\wdt.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\device\sdio_host_init.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto.h
+	"endian.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto_hash.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\hmac.h
+	"crypto.h"
+	"sha256.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\sha256.h
+	"crypto.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint.h
+	"bigint_impl.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint_impl.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\ecdh.h
+	"bigint_impl.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc_new.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc.h
+	<stdint.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\aes_cmac.h
+	<stdint.h>
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\rijndael.h
+	<stdint.h>
+
+1593684144 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"btcontroller_mode.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_config.h
+	"board_ac695x_demo_cfg.h"
+
+1626519890 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo_cfg.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_mode.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_action.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\btstack_task.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_api.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\bluetooth.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\le_user.h
+	"btstack/ble_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1592308844 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/le_user.h"
+
+1593681878 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1593525946 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_user.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_msg.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1565232496 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\audio_enc_api.h
+
+1593525946 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_api.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_data_types.h
+
+1592309774 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_client_demo.h
+	<stdint.h>
+
+1593576632 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"ble_data_types.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_config.c
+	"app_config.h"
+	"bt_common.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\app_mesh.h
+	"mesh/mesh_config.h"
+	"mesh/main.h"
+	"mesh/cfg_srv.h"
+	"mesh/cfg_cli.h"
+	"device/vm.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\mesh_config.h
+	"adapter/include/common/sys_timer.h"
+	"gpio.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\adapter\include\common\sys_timer.h
+	"generic/sys_time.h"
+	"generic/typedef.h"
+	"generic/list.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\main.h
+	"mesh/access.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\access.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_srv.h
+	"mesh/access.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_cli.h
+	"mesh/access.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_onoff_app.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"btstack/btstack_task.h"
+	"btstack/bt_profile_config.h"
+	"btstack/avctp_user.h"
+	"btstack/le_user.h"
+	"system/event.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+	"bt_common.h"
+	"debug.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\port\br23\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\ble\ll_config.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\lmp_config.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\bt_profile_config.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btstack\avctp_user.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1592385428 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\resample_8.c
+	<string.h>
+	"resample_8.h"
+
+1592310568 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_8.h
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_at_com.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_com.h"
+	"at.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_at_com.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"spp_trans_data.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_user.c
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"btstack/avctp_user.h"
+	"app_config.h"
+	"classic/tws_api.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_event.h
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\ctmu.h
+	"typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\common\custom_cfg.c
+	"board_config.h"
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_user_update.h
+	"typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"spp_user.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"file_operate/file_operate.h"
+	"rcsp_bs_api.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\file_operate\file_operate.h
+	"system/fs/fs.h"
+	"storage_dev/storage_dev.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\storage_dev\storage_dev.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bs_api.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"event.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\update\update.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\update\update_loader_download.h
+	"typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"custom_cfg.h"
+	"system/debug.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\pwm_led.h
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\update\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"le_rcsp_adv_module.h"
+	<string.h>
+	"rcsp_adv_tws_ota.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_rcsp_adv_module.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1626514867 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"debug.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"debug.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_main.h
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"debug.h"
+
+1626513495 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_com.h"
+	"le_at_com.h"
+	"debug.h"
+
+1626522174 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1592307586 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"debug.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\charge.h
+	"typedef.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power\p33.h
+	"typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\log_config.c
+	"system/includes.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"debug.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/chargestore.h"
+	"update.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\chargestore.h
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\ctmu.c
+	"app_config.h"
+	"asm/ctmu.h"
+	"asm/gpio.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_soft.h
+	"generic/typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\mcpwm.c
+	"asm/mcpwm.h"
+	"asm/clock.h"
+	"asm/gpio.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\mcpwm.h
+	"typedef.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\port_wkup.c
+	"typedef.h"
+	"irq.h"
+	"asm/gpio.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"system/timer.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\setup.c
+	"asm/includes.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/efuse.h"
+	"asm/power/p33.h"
+	"system/task.h"
+	"timer.h"
+	"system/init.h"
+	"system/includes.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\debug.h
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1591077066 e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1591077066 source:e:\jimmyworks\jl\ac695n\jl-695n-data-transfer\cbp_out\cpu\br23\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
+1626753998 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\le_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"le_at_com.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"system/audio_enc_api.h"
+	"Resample_api.h"
+	"ble_data_types.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\cpu.h
+	"br23.h"
+	"csfr.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\br23.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\csfr.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\irq.h
+	"asm/hwi.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\hwi.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1630639953 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\errno-base.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\malloc.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\list.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+	"crypto_toolbox/crypto.h"
+	"crypto_toolbox/Crypto_hash.h"
+	"crypto_toolbox/hmac.h"
+	"crypto_toolbox/sha256.h"
+	"crypto_toolbox/bigint.h"
+	"crypto_toolbox/bigint_impl.h"
+	"crypto_toolbox/ecdh.h"
+	"crypto_toolbox/micro-ecc/uECC_new.h"
+	"crypto_toolbox/micro-ecc/uECC.h"
+	"crypto_toolbox/aes_cmac.h"
+	"crypto_toolbox/rijndael.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\init.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\task.h
+	"os/os_api.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\jiffies.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_error.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\os_type.h
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\freertosconfig.h
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+	"printf.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\projdefs.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\mpu_wrappers.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\os\freertos\queue.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\wait.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\database.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ioctl.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\sys_time.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\bank_switch.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\gpio.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\version.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\index.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\generic\debug_lite.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\ioctl_cmds.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1630380917 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\adc_api.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\plcnt.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\rdec.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\crc16.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\clock_hw.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power_interface.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\efuse.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\wdt.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\device\sdio_host_init.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto.h
+	"endian.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\endian.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\crypto_hash.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\hmac.h
+	"crypto.h"
+	"sha256.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\sha256.h
+	"crypto.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint.h
+	"bigint_impl.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\bigint_impl.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\ecdh.h
+	"bigint_impl.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc_new.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\micro-ecc\uecc.h
+	<stdint.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\aes_cmac.h
+	<stdint.h>
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\crypto_toolbox\rijndael.h
+	<stdint.h>
+
+1593684144 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"btcontroller_mode.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_config.h
+	"board_ac695x_demo_cfg.h"
+
+1626519890 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo_cfg.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_mode.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_action.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\btstack_task.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_api.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\bluetooth.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\le_user.h
+	"btstack/ble_api.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1592308844 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/le_user.h"
+
+1593681878 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1593525946 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_user.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_msg.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1565232496 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\audio_enc_api.h
+
+1593525946 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_api.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\ble_data_types.h
+
+1592309774 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_client_demo.h
+	<stdint.h>
+
+1593576632 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"ble_data_types.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_config.c
+	"app_config.h"
+	"bt_common.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\app_mesh.h
+	"mesh/mesh_config.h"
+	"mesh/main.h"
+	"mesh/cfg_srv.h"
+	"mesh/cfg_cli.h"
+	"device/vm.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\mesh_config.h
+	"adapter/include/common/sys_timer.h"
+	"gpio.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\adapter\include\common\sys_timer.h
+	"generic/sys_time.h"
+	"generic/typedef.h"
+	"generic/list.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\main.h
+	"mesh/access.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\access.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_srv.h
+	"mesh/access.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\mesh\cfg_cli.h
+	"mesh/access.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\mesh_onoff_app.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"btstack/btstack_task.h"
+	"btstack/bt_profile_config.h"
+	"btstack/avctp_user.h"
+	"btstack/le_user.h"
+	"system/event.h"
+	"btstack/ble_data_types.h"
+	"app_mesh.h"
+	"bt_common.h"
+	"debug.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\port\br23\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\ble\ll_config.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\lmp_config.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\bt_profile_config.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btstack\avctp_user.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1592385428 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\resample_8.c
+	<string.h>
+	"resample_8.h"
+
+1592310568 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\resample_8.h
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_at_com.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_com.h"
+	"at.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\edr\include\spp_at_com.h
+	"typedef.h"
+	"bt_common.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"spp_trans_data.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\edr\spp_user.c
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"btstack/avctp_user.h"
+	"app_config.h"
+	"classic/tws_api.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_event.h
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\ctmu.h
+	"typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\common\custom_cfg.c
+	"board_config.h"
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_user_update.h
+	"typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"spp_user.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"file_operate/file_operate.h"
+	"rcsp_bs_api.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\ai_stack\jl_rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\file_operate\file_operate.h
+	"system/fs/fs.h"
+	"storage_dev/storage_dev.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\storage_dev\storage_dev.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\include\jl_rcsp\rcsp_bs_api.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"event.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\third_party_profile\jl_rcsp\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\update\update.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\update\update_loader_download.h
+	"typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"custom_cfg.h"
+	"system/debug.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\pwm_led.h
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\update\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"le_rcsp_adv_module.h"
+	<string.h>
+	"rcsp_adv_tws_ota.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\ble\include\le_rcsp_adv_module.h
+	<stdint.h>
+	"bt_common.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1630642846 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"debug.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"debug.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\include\app_main.h
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"debug.h"
+
+1626513495 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_com.h"
+	"le_at_com.h"
+	"debug.h"
+
+1630642195 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1592307586 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\board\br23\board_ac695x_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"asm/charge.h"
+	"device/key_driver.h"
+	"asm/power/p33.h"
+	"debug.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\charge.h
+	"typedef.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\power\p33.h
+	"typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1630306309 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\lib_config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\log_config.c
+	"system/includes.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"debug.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1630380602 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/chargestore.h"
+	"update.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\chargestore.h
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\ctmu.c
+	"app_config.h"
+	"asm/ctmu.h"
+	"asm/gpio.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\iic_soft.h
+	"generic/typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\mcpwm.c
+	"asm/mcpwm.h"
+	"asm/clock.h"
+	"asm/gpio.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\mcpwm.h
+	"typedef.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\port_wkup.c
+	"typedef.h"
+	"irq.h"
+	"asm/gpio.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"system/timer.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\setup.c
+	"asm/includes.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/efuse.h"
+	"asm/power/p33.h"
+	"system/task.h"
+	"timer.h"
+	"system/init.h"
+	"system/includes.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\debug.h
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1591077066 e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\include_lib\driver\cpu\br23\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1591077066 source:e:\loz_project_blemcu\j_捷美瑞\jl-695n-data-transfer\cbp_out\cpu\br23\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
